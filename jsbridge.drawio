@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T12:30:43.933Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="SxgnqbfTWH64vKBFGPZq" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-08T12:37:26.214Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="e9j3Pj7uyEcP6vvqWZk2" version="14.7.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -175,6 +175,21 @@
         </mxCell>
         <mxCell id="7fWlRQTzWlkjRt9-waxi-40" value="ipcMain.on&lt;br&gt;(IPC_MAIN)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2060" y="643" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7fWlRQTzWlkjRt9-waxi-41" value="eventsMap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2570" y="760" width="540" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="7fWlRQTzWlkjRt9-waxi-42" value="PARTITION_APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2630" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7fWlRQTzWlkjRt9-waxi-43" value="&lt;span&gt;PARTITION_MINIAPP_BUNDLE&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2610" y="960" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7fWlRQTzWlkjRt9-waxi-44" value="&lt;span&gt;PARTITION_MINIAPP&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2940" y="800" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7fWlRQTzWlkjRt9-waxi-45" value="&lt;span&gt;PARTITION_CLIENT&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2950" y="960" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
