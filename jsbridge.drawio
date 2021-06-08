@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T12:50:21.478Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="H76blabNFYEm846E_WfM" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-08T13:01:09.217Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="X1DzJYzRYIh0Dz42LFTl" version="14.7.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -95,6 +95,9 @@
         <mxCell id="ucTF686ake_OsxjGIKMh-23" value="regist" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1695" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="7fWlRQTzWlkjRt9-waxi-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.481;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ucTF686ake_OsxjGIKMh-24" target="7fWlRQTzWlkjRt9-waxi-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ucTF686ake_OsxjGIKMh-24" value="emit" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="2125" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
@@ -149,11 +152,6 @@
         </mxCell>
         <mxCell id="7fWlRQTzWlkjRt9-waxi-2" value="是否存在事件名" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="385" y="900" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="7fWlRQTzWlkjRt9-waxi-16" value="等待返回数据" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7fWlRQTzWlkjRt9-waxi-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="425" y="1280" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="7fWlRQTzWlkjRt9-waxi-7" value="eventsMap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="365" y="1040" width="120" height="60" as="geometry" />
@@ -222,6 +220,19 @@
         </mxCell>
         <mxCell id="7fWlRQTzWlkjRt9-waxi-46" value="名称是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2590" y="840" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7fWlRQTzWlkjRt9-waxi-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7fWlRQTzWlkjRt9-waxi-59" target="7fWlRQTzWlkjRt9-waxi-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7fWlRQTzWlkjRt9-waxi-63" value="返回数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7fWlRQTzWlkjRt9-waxi-62">
+          <mxGeometry x="0.0917" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7fWlRQTzWlkjRt9-waxi-59" value="clientMap:&amp;nbsp; 事件名：[发送者ID号]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2090" y="1440" width="430" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
