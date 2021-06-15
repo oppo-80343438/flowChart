@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T08:00:16.079Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="ggfH800L8DBD1VBcGq_p" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-15T08:01:01.147Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="X-A1Ab2h-CHlx28MHJNX" version="14.7.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -32,6 +32,11 @@
         <mxCell id="URPiWKKZn_leJZeY5QNX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="izJZb2kvFQ139st37Nfl-3" target="URPiWKKZn_leJZeY5QNX-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="URPiWKKZn_leJZeY5QNX-36" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;注册拦截&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="URPiWKKZn_leJZeY5QNX-6">
+          <mxGeometry x="0.0778" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="URPiWKKZn_leJZeY5QNX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="izJZb2kvFQ139st37Nfl-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1080" y="600" as="targetPoint" />
@@ -52,7 +57,7 @@
         <mxCell id="URPiWKKZn_leJZeY5QNX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="URPiWKKZn_leJZeY5QNX-4" target="URPiWKKZn_leJZeY5QNX-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="URPiWKKZn_leJZeY5QNX-4" value="注册请求拦截器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="URPiWKKZn_leJZeY5QNX-4" value="请求拦截器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="820" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="URPiWKKZn_leJZeY5QNX-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="URPiWKKZn_leJZeY5QNX-12" target="URPiWKKZn_leJZeY5QNX-27">
