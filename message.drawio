@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-23T11:13:02.313Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="x4peF_w-eT8XrxJTxRCe" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-23T11:46:37.557Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="v0HS8-wf4-3F3aCFFvZ_" version="14.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -6,6 +6,75 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="fvCOekWjU_wcrlOKJZP--0" value="聊天消息流程图" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1360" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hKGGyci4gQ0SDgjoCA6r-0" target="hKGGyci4gQ0SDgjoCA6r-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1190" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hKGGyci4gQ0SDgjoCA6r-0" target="hKGGyci4gQ0SDgjoCA6r-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-0" value="渲染进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1130" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-1" value="主进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1590" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hKGGyci4gQ0SDgjoCA6r-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-3" value="会话列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1050" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.592;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hKGGyci4gQ0SDgjoCA6r-19" target="hKGGyci4gQ0SDgjoCA6r-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400" y="530" />
+              <mxPoint x="1400" y="190" />
+              <mxPoint x="1075" y="190" />
+              <mxPoint x="1075" y="280" />
+              <mxPoint x="881" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-17" value="emit(&#39;go&#39;)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hKGGyci4gQ0SDgjoCA6r-16">
+          <mxGeometry x="-0.7044" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hKGGyci4gQ0SDgjoCA6r-8" target="hKGGyci4gQ0SDgjoCA6r-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-8" value="聊天列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1220" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hKGGyci4gQ0SDgjoCA6r-12" target="hKGGyci4gQ0SDgjoCA6r-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-22" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;on(&#39;go&#39;)&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hKGGyci4gQ0SDgjoCA6r-15">
+          <mxGeometry x="0.1778" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-12" value="EventEmitter&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="810" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-23" value="改变路由&lt;br&gt;改变preSessionInfo&lt;br&gt;清空消息列表" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hKGGyci4gQ0SDgjoCA6r-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-13" value="ChatArea.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1050" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-19" value="sessionItem.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1220" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-24" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1570" y="730" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
