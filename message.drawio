@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T03:56:38.336Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="NozorUd-0QtCXuKGdGtc" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-24T06:43:34.470Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="qv--MllV8Id-yZ7f00Dx" version="14.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -75,6 +75,22 @@
         </mxCell>
         <mxCell id="hKGGyci4gQ0SDgjoCA6r-24" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1570" y="730" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hKGGyci4gQ0SDgjoCA6r-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-27" value="changeGroup方法&lt;br&gt;到seMsgList&lt;br&gt;到query&lt;br&gt;msgUtilsApi.query" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hKGGyci4gQ0SDgjoCA6r-26">
+          <mxGeometry x="-0.3" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-25" value="MsgArea.vue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1050" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hKGGyci4gQ0SDgjoCA6r-28" value="JS bridage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1050" y="820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
